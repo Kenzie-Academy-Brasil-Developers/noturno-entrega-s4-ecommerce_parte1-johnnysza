@@ -202,9 +202,7 @@ body{
 
 @media (min-width: 660px) {
     .display-produtos {
-        display: flex;
         flex-wrap: wrap;
-        width: 100%;
     }
 }
 
