@@ -185,15 +185,26 @@ body{
         justify-content: space-around;
     }
 
+    .titulo {
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
     main {
         max-width: 1600px;
     }
 
     .display-produtos {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin-left: 60px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 660px) {
+    .display-produtos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
